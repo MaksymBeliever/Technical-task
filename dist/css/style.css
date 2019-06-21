@@ -1,0 +1,470 @@
+/*  <----Specification-----> */
+
+
+body {
+   font-family: 'PT Sans', sans-serif;
+}
+
+ul, li {
+   display: block;
+   margin: 0;
+   padding: 0;
+}
+
+h4 {
+   cursor: pointer;
+}
+
+h5 {
+   font-weight: 700;
+}
+
+h6 {
+   font-weight: 700;
+   cursor: default;
+}
+
+p {
+   color: #676666;
+}
+
+span {
+   color: #212529;
+}
+
+/*  <----First screen-----> */
+header {
+   height: 100px;
+   background: #d8d6d6cc;
+   box-shadow: 0 0 7px 1px #717070;
+   color: #010101;
+}
+
+.logo {
+   height: 72px;
+   width: 260px;
+   margin-top: 12px;
+   cursor: pointer;
+}
+
+.menu {
+   margin-top: 25px;
+}
+
+.menu__item {
+   border: #01533c solid 3px;
+   border-radius: 7px;
+   margin: 2px 20px;
+   padding: 5px;
+   width: 130px;
+   text-align: center;
+   cursor: pointer;
+}
+
+.menu__item a {
+   font-size: 19px;
+   font-weight: 700;
+   color: #01533c;
+   text-decoration: none;
+}
+
+.menu__item:hover {
+   background: #01533c;
+   transition: 0.5s;
+}
+
+.menu__item:hover #catalogue {
+   color: #d9d6d6;
+   transition: 0.5s;
+}
+
+.menu__item:hover #logout {
+   color: #d9d6d6;
+   transition: 0.5s;
+}
+
+.menu__item:hover a {
+   color: #d9d6d6;
+   transition: 0.5s;
+}
+
+.icons {
+   padding-top: 4px;
+   margin-right: 3px;
+}
+
+.icons a {
+   color: #01533c;
+   font-size: 16px;
+}
+
+#catalogue {
+   font-size: 19px;
+   font-weight: 700;
+   color: #01533c;
+}
+
+#logout__button {
+   margin-right: 0;
+}
+
+#logout {
+   font-size: 19px;
+   font-weight: 700;
+   color: #01533c;
+}
+
+/*  <----Second screen-----> */
+#app {
+   /* height: 700px; */
+   background: white;
+   margin-top: 15px;
+   margin-bottom: 15px;
+   box-shadow: 0 0px 6px 3px #00000057;
+   min-height: 600px;
+   padding: 25px;
+}
+
+#autorization_field {
+   height: 700px;
+   background: white;
+}
+
+#login__container {
+   padding-top: 150px;
+}
+
+#login__row {
+   margin: 0 auto;
+   height: 350px;
+   width: 350px;
+   border: #01533c solid 3px;
+   border-radius: 7px;
+}
+
+.login__frame {
+   height: 300px;
+}
+
+.sign__in {
+   margin-top: 28px;
+   margin-bottom: 30px;
+   cursor: default;
+   font-weight: 700;
+}
+
+.email__input {
+   width: 315px;
+   border: #d8d6d6 solid 2px;
+   border-radius: 4px;
+   margin-bottom: 25px;
+}
+
+.password__input {
+   width: 315px;
+   border: #d8d6d6 solid 2px;
+   border-radius: 4px;
+}
+
+.sign_in_submit_button {
+   display: flex;
+   margin-top: 14px;
+    background-color: #01533c;
+    border: none;
+    color: #fff;
+    font-size: 14px;
+    padding: 12px 15px;
+    position: relative;
+    text-align: left;
+    width: 100px;
+    margin-bottom: 30px;
+    border-radius: 7px;
+}
+
+.fa-long-arrow-right {
+   padding-left: 7px;
+   font-weight: 700;
+   font-size: 16px;
+}
+
+#sign_in_submit_button {
+   align-items: center;
+   width: 315px;
+}
+
+.sign_in_submit_button:hover {
+   background-color: #04b986;
+   transition: 0.5s;
+   cursor: pointer;
+}
+
+.signInButtonText {
+   font-size: 16px;
+   color: white;
+   font-weight: 700;
+   margin-bottom: 4px;
+}
+
+
+/*  <----app screen-----> */
+
+.product {
+   margin-top: 5px;
+   font-size: 19px;
+}
+
+.product_wrap {
+   margin: 5px;
+}
+
+
+/*  <----3 screen-----> */
+#last_block {
+   min-height: 230px;
+   background: #d8d6d6cc;
+}
+
+#last_block_container {
+   padding-top: 25px;
+}
+
+.title:hover {
+   cursor: default;
+}
+
+.text {
+   margin-bottom: 1px;
+}
+.text:hover {
+   cursor: default;
+}
+
+#text_hover:hover {
+   text-decoration: underline;
+}
+
+#text_hover {
+   cursor: pointer;
+}
+
+.input__email {
+   border: none;
+    border-radius: 4px;
+    width: 255px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.social__networks {
+   margin-top: 15px;
+}
+
+.facebook {
+   display: block;
+   margin-right: 75px;
+   width: 35px;
+   height: 34px;
+   text-align: center;
+   line-height: 34px;
+}
+
+.facebook:hover {
+   background-color: #325c94;   
+   border-radius: 23px;
+   cursor: pointer;
+}
+
+.facebook:hover a span {
+   color: white;
+}
+
+.pinterest {
+   display: block;
+   margin-right: 75px;
+   width: 35px;
+   height: 34px;
+   text-align: center;
+   line-height: 34px;
+}
+
+.pinterest:hover {
+   background-color: #cb2027;;
+   
+   border-radius: 23px;
+}
+
+.pinterest:hover a span {
+   color: white;
+}
+
+.instagram {
+   display: block;
+   margin-right: 75px;
+   width: 35px;
+   height: 34px;
+   text-align: center;
+   line-height: 34px;
+}
+
+.instagram:hover {
+   background-color: #517fa4;
+   border-radius: 23px;
+}
+
+.instagram:hover a span {
+   color: white;
+}
+
+/*  <----Last screen-----> */
+footer {
+   background: #333;
+   color: white;
+   font-size: 24px;
+   cursor: default;
+   padding: 15px;
+}
+
+.product {
+   width: 400px;
+    height: 325px;
+   border-radius: 11px;
+    background: #d9d6d6;
+    box-shadow: 0 0 10px -1.8px #242323;
+    text-align: center;
+}
+
+.preview__text {
+   padding-top: 7px;
+   font-weight: 700;
+}
+
+.preview__text:hover {
+   color: #01533c;
+   text-decoration: underline;
+}
+
+.product__price {
+   padding-top: 7px;
+   color: #01533c;
+   font-weight: 700;
+}
+
+.product__price:hover {
+   cursor: default;
+}
+
+.goBack {
+   margin-top: 2px;
+    border-radius: 7px;
+    margin-right: 20px;
+    padding: 5px;
+    width: 165px;
+    text-align: center;
+    cursor: pointer;
+    color: white;
+    background: #01533c;
+    height: 44px;
+    border: none;
+}
+
+.goBack:hover {
+   background-color: #04b986;
+   transition: 0.5s;
+   color: white;
+}
+
+.product_page {
+   height: 700px;
+}
+
+.catalog-product {
+   background-color: #e0dede;
+    border: 1px solid #333;
+}
+
+.spanGoBack {
+   color: white;
+   font-weight: 700;
+   font-size: 19px;
+}
+
+.fa-long-arrow-left {
+   padding-right: 4px;
+   font-weight: 700;
+}
+
+.hidden-block {
+   opacity: 0;
+   transition: 1s;
+}
+
+.show-block {
+   opacity: 1;
+   transition: 1s;
+}
+
+.owl-nav {
+   font-size: 60px;
+   font-weight: bold;
+   text-align: center;
+}
+.owl-nav span {
+   margin: 0 15px;
+   height: 50px;
+}
+
+/*  <----Media queries-----> */
+@media screen and (max-width: 576px) {
+   #last_block_columns {
+      width: 500px;
+      display: block;
+      margin: 0;
+   }
+}
+
+
+@media screen and (max-width: 768px) {
+   #last_block_columns {
+      width: 100%;
+   }
+}
+
+
+@media screen and (max-width: 992px) {
+   header {
+      height: 180px;
+   }
+
+   .logo {
+      display: block;
+      margin: 0 auto;
+      margin-top: 15px;
+   }
+
+   #last_block_columns {
+      width: 50%;
+   }
+
+   .header__buttons {
+      max-width: 100%;
+   }
+
+   .more {
+      margin-top: 30px;
+   }
+
+   .company {
+      margin-top: 30px;
+   }
+
+   .social__networks {
+      margin-top: 10px;
+  }
+}
+
+
+@media screen and (max-width: 1200px) {
+   .header__buttons {
+      max-width: 100%;
+   }
+}

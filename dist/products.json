@@ -1,0 +1,10 @@
+[
+   {"img": "table1.png", "name": "Table (SW081)", "price": "480$", "id": 1, "images": ["SW081-1.jpg", "SW081-2.jpg", "SW081-3.jpg", "SW081-4.jpg"], "description": "sdsfdsfdsfhiewhfuhewiufhuiewhfu wehfduiewh fuihweiu fh uiew ewfhuiewhfuih ew efuwehfiuw"},
+   {"img": "table2.png", "name": "Table (SW043)", "price": "170$", "id": 2, "images": ["SW043-1.jpg", "SW043-2.jpg"]},
+   {"img": "chair1.png", "name": "Chair (Rise)", "price": "575$", "id": 3, "images": ["rize-1.jpg", "rize-2.jpg"]},
+   {"img": "chair2.png", "name": "Chair (RedKing Matrix)", "price": "260$", "id": 4, "images": ["kreslo-1.jpg", "kreslo-2.jpg"]},
+   {"img": "wardrobe1.png", "name": "Wardrobe (Ramona)", "price": "940$", "id": 5, "images": ["shkaf-1.jpg", "shkaf-2.jpg"]},
+   {"img": "wardrobe2.png", "name": "Wardrobe (Florencia)", "price": "730$", "id": 6, "images": ["florencia-1.jpg", "florencia-2.jpg"]},
+   {"img": "bad1.png", "name": "Bad (Fellini)", "price": "660$", "id": 7, "images": ["fellini-1.jpg", "fellini-2.jpg"]},
+   {"img": "bad2.png", "name": "Bad (Imperial)", "price": "1290$", "id": 8, "images": ["imperia-1.jpg", "imperia-2.jpg"]}
+]

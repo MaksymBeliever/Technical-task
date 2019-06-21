@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>All furniture</title>
+   <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="css/bootstrap.min.css">
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link rel="stylesheet" href="css/style.css">
+   <script defer src="bundle.js"></script>
+</head>
+
+<body>
+   <header id="header" class="header">
+      <div class="container">
+
+         <div id="block_top" class="row">
+            <div class="col-lg-5">
+               <img src="img/logo.png" alt="Furnesia" class="logo">
+            </div>
+            <div class="col-lg-3 ml-auto">
+               <nav>
+                  <ul class="menu d-flex">
+                     <li class="icons">
+                        <a href="#">
+                           <i class="fa fa-folder-open"></i>
+                        </a>
+                     </li>
+                     <li class="menu__item">
+                        <a id="menu__item1" href="#">
+                           Catalogue
+                        </a>
+                     </li>
+                     <li class="icons">
+                        <a href="#">
+                           <i class="fa fa-sign-out"></i>
+                        </a>
+                     </li>
+                     <li class="menu__item">
+                        <a href="#">
+                           Log out
+                        </a>
+                     </li>
+                  </ul>
+
+               </nav>
+            </div>
+         </div>
+
+      </div>
+   </header>
+
+   <section id="autorization_field" class="autorization_field">
+      <div class="container">
+         <div class="row">
+            <div class="login__frame">
+               <h2>Sign in to your account</h2>
+               <p>Don't have an account?</p>
+               <p class="create">Create one now</p>
+               <h6>Email Address*</h6>
+               <input type="email" class="email__input" placeholder="Enter email" name="customer[email]" autofocus>
+               <h6>Password*</h6>
+               <input type="password" class="password__input" placeholder="Enter password" name="customer[password]" autofocus>
+               <label>
+                  <input type="checkbox" name="remember">
+                  Remember me
+               </label>
+               <p class="forgot__password">Forgot password?</p>
+
+               <button type="submit" id="sign_in_submit_button" class="sign_in_submit_button" value="Sign In">
+                  Sign in
+                  <i class="fa fa-long-arrow-right"></i>
+               </button>
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <section id="last_block" class="last_block">
+      <div id="last_block_container" class="container">
+         <div class="row">
+            <div class="col-lg-4">
+               <div class="last_block_columns d-flex">
+                  <div class="title__block">
+                     <h5 class="title">
+                        SIGN UP FOR NEWSLETTERS
+                     </h5>
+                     <p class="text">
+                        Sign up for our newsletter and be the<br>
+                        first to know. Don't worry, you may<br>
+                        safely unsubscribe at any time.
+                     </p>
+
+                     <input type="email" value placeholder="your-email@xample.com" name="contact[email]" id="input__email" class="input__email">
+                  <ul>
+                     <li class="facebook">
+                        <a href="https://www.facebook.com" target="blank" title="Facebook">
+                        <span id="networks" class="fa fa-facebook"></span>
+                        </a>
+                     </li>
+
+                     <li class="pinterest">
+                        <a href="https://www.pinterest.ca" target="blank" title="Pinterest">
+                        <span id="networks"  class="fa fa-pinterest"></span>
+                        </a>
+                     </li>
+
+                     <li class="instagram">
+                        <a href="https://www.instagram.com" target="blank" title="Instagram">
+                        <span id="networks"  class="fa fa-instagram"></span>
+                        </a>
+                     </li>
+                  </ul>
+                  </div>
+               </div>
+            </div>
+
+            <div class="col-lg-3">
+               <div class="last_block_columns d-flex">
+                  <div class="title__block">
+                     <h5 class="title">
+                        CUSTOMER SERVICE
+                     </h5>
+                     <p class="text">
+                        Delivery & Setup<br>
+                        Returns & Exchanges<br>
+                        Price Match Promise<br>
+                        Customer Care
+                     </p>
+                  </div>
+               </div>
+            </div>
+
+            <div class="col-lg-3">
+               <div class="last_block_columns d-flex">
+                  <div class="title__block">
+                     <h5 class="title">
+                        MORE TO EXPLORE
+                     </h5>
+                     <p class="text">
+                        Furniture.ca Blog<br>
+                        Customer Reviews<br>
+                        Design Team<br>
+                        FAQ
+                     </p>
+                  </div>
+               </div>
+            </div>
+
+            <div class="col-lg-2">
+               <div class="last_block_columns d-flex">
+                  <div class="title__block">
+                     <h5 class="title">
+                        COMPANY
+                     </h5>
+                     <p class="text">
+                        About Us<br>
+                        Privacy Policy<br>
+                        Terms & Conditions<br>
+                        Register
+                     </p>
+                  </div>
+               </div>
+            </div>
+
+         </div>
+      </div>
+   </section>
+
+   <footer id="footer" class="footer">
+      <div class="container justify-content-center">
+         Furnesia - all furniture © 2019 developed by Maksym Beliba 2019
+      </div>
+   </footer>
+</body>
+
+</html>
