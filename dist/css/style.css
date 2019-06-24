@@ -11,6 +11,15 @@ ul, li {
    padding: 0;
 }
 
+h2 {
+   font-weight: 700;
+   margin-top: 40px;
+}
+
+h2:hover {
+   cursor: default;
+}
+
 h4 {
    cursor: pointer;
 }
@@ -116,13 +125,14 @@ header {
 
 /*  <----Second screen-----> */
 #app {
-   /* height: 700px; */
    background: white;
-   margin-top: 15px;
-   margin-bottom: 15px;
-   box-shadow: 0 0px 6px 3px #00000057;
-   min-height: 600px;
-   padding: 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    box-shadow: 0 0px 6px 3px #00000057;
+    min-height: 600px;
+    padding: 12px 25px;
+    max-width: 1225px;
+    min-width: 700px;
 }
 
 #autorization_field {
@@ -379,7 +389,10 @@ footer {
 
 .catalog-product {
    background-color: #e0dede;
-    border: 1px solid #333;
+    max-width: 375px;
+    margin: 13px;
+    border-radius: 7px;
+    box-shadow: 0 0 8px 0.5px #6d6d6d;
 }
 
 .spanGoBack {
@@ -408,9 +421,20 @@ footer {
    font-weight: bold;
    text-align: center;
 }
+
 .owl-nav span {
    margin: 0 15px;
    height: 50px;
+   color: #1c533c;
+}
+
+.owl-nav span:hover {
+   color: #04b986;
+   transition: 0.4s;
+}
+
+.productInformation h4:hover {
+   cursor: default;
 }
 
 /*  <----Media queries-----> */

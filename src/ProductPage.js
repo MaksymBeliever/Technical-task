@@ -47,6 +47,7 @@ export default function (navigateTo) {
          <h2>${product.name}</h2>
       `);
 
+
       section.find('h2').before(goBack);
       section.find('h2').after(carousel);
 
@@ -57,6 +58,11 @@ export default function (navigateTo) {
       spanGoBack.addClass('spanGoBack');
       goBack.append(spanGoBack);
       spanGoBack.html('Back to catalog');
+
+      const productInfo = $(document.createElement('div'));
+      productInfo.addClass('productInformation');
+      section.append(productInfo);
+      productInfo.html(`<h4>${product.description}</h4>`);
 
 
       app.append(section);
