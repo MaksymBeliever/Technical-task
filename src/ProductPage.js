@@ -60,9 +60,9 @@ export default function (navigateTo) {
       spanGoBack.html('Back to catalog');
 
       const productInfo = $(document.createElement('div'));
-      productInfo.addClass('productInformation');
+      productInfo.addClass('productInformation container');
       section.append(productInfo);
-      productInfo.html(`<h4>${product.description}</h4>`);
+      productInfo.html(`<p class="productInformationText">${product.description}</p>`);
 
 
       app.append(section);

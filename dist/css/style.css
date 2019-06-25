@@ -132,7 +132,6 @@ header {
     min-height: 600px;
     padding: 12px 25px;
     max-width: 1225px;
-    min-width: 700px;
 }
 
 #autorization_field {
@@ -383,9 +382,9 @@ footer {
    color: white;
 }
 
-.product_page {
+/* .product_page {
    height: 700px;
-}
+} */
 
 .catalog-product {
    background-color: #e0dede;
@@ -437,6 +436,10 @@ footer {
    cursor: default;
 }
 
+.productInformationText {
+   font-size: 19px;
+}
+
 /*  <----Media queries-----> */
 @media screen and (max-width: 576px) {
    #last_block_columns {
@@ -484,6 +487,10 @@ footer {
    .social__networks {
       margin-top: 10px;
   }
+
+  .product_list_field {
+   justify-content: center;
+  }
 }
 
 
@@ -491,4 +498,8 @@ footer {
    .header__buttons {
       max-width: 100%;
    }
+
+   .product_list_field {
+      justify-content: center;
+     }
 }
