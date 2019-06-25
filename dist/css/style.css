@@ -61,7 +61,7 @@ header {
 }
 
 .menu__item {
-   border: #01533c solid 3px;
+   background-color: #1d543d;
    border-radius: 7px;
    margin: 2px 20px;
    padding: 5px;
@@ -73,27 +73,12 @@ header {
 .menu__item a {
    font-size: 19px;
    font-weight: 700;
-   color: #01533c;
+   color: #d9d6d6;
    text-decoration: none;
 }
 
 .menu__item:hover {
-   background: #01533c;
-   transition: 0.5s;
-}
-
-.menu__item:hover #catalogue {
-   color: #d9d6d6;
-   transition: 0.5s;
-}
-
-.menu__item:hover #logout {
-   color: #d9d6d6;
-   transition: 0.5s;
-}
-
-.menu__item:hover a {
-   color: #d9d6d6;
+   background-color: #04b986;
    transition: 0.5s;
 }
 
@@ -110,7 +95,7 @@ header {
 #catalogue {
    font-size: 19px;
    font-weight: 700;
-   color: #01533c;
+   color: #d9d6d6;
 }
 
 #logout__button {
@@ -120,7 +105,7 @@ header {
 #logout {
    font-size: 19px;
    font-weight: 700;
-   color: #01533c;
+   color: #d9d6d6;
 }
 
 /*  <----Second screen-----> */
@@ -216,7 +201,6 @@ header {
 
 
 /*  <----app screen-----> */
-
 .product {
    margin-top: 5px;
    font-size: 19px;
@@ -224,6 +208,109 @@ header {
 
 .product_wrap {
    margin: 5px;
+}
+
+.product {
+   width: 400px;
+    height: 325px;
+   border-radius: 11px;
+    background: #d9d6d6;
+    box-shadow: 0 0 10px -1.8px #242323;
+    text-align: center;
+}
+
+.preview__text {
+   padding-top: 7px;
+   font-weight: 700;
+}
+
+.preview__text:hover {
+   color: #01533c;
+   text-decoration: underline;
+}
+
+.product__price {
+   padding-top: 7px;
+   color: #01533c;
+   font-weight: 700;
+}
+
+.product__price:hover {
+   cursor: default;
+}
+
+.goBack {
+   margin-top: 2px;
+    border-radius: 7px;
+    margin-right: 20px;
+    padding: 5px;
+    width: 165px;
+    text-align: center;
+    cursor: pointer;
+    color: white;
+    background: #01533c;
+    height: 44px;
+    border: none;
+}
+
+.goBack:hover {
+   background-color: #04b986;
+   transition: 0.5s;
+   color: white;
+}
+
+.catalog-product {
+   background-color: #e0dede;
+    max-width: 375px;
+    margin: 13px;
+    border-radius: 7px;
+    box-shadow: 0 0 8px 0.5px #6d6d6d;
+}
+
+.spanGoBack {
+   color: white;
+   font-weight: 700;
+   font-size: 19px;
+}
+
+.fa-long-arrow-left {
+   padding-right: 4px;
+   font-weight: 700;
+}
+
+.hidden-block {
+   opacity: 0;
+   transition: 1s;
+}
+
+.show-block {
+   opacity: 1;
+   transition: 1s;
+}
+
+.owl-nav {
+   font-size: 60px;
+   font-weight: bold;
+   text-align: center;
+}
+
+.owl-nav span {
+   margin: 0 15px;
+   height: 50px;
+   color: #1c533c;
+}
+
+.owl-nav span:hover {
+   color: #04b986;
+   transition: 0.4s;
+}
+
+.productInformation h4:hover {
+   cursor: default;
+}
+
+.productInformationText {
+   font-size: 19px;
 }
 
 
@@ -333,113 +420,6 @@ footer {
    padding: 15px;
 }
 
-.product {
-   width: 400px;
-    height: 325px;
-   border-radius: 11px;
-    background: #d9d6d6;
-    box-shadow: 0 0 10px -1.8px #242323;
-    text-align: center;
-}
-
-.preview__text {
-   padding-top: 7px;
-   font-weight: 700;
-}
-
-.preview__text:hover {
-   color: #01533c;
-   text-decoration: underline;
-}
-
-.product__price {
-   padding-top: 7px;
-   color: #01533c;
-   font-weight: 700;
-}
-
-.product__price:hover {
-   cursor: default;
-}
-
-.goBack {
-   margin-top: 2px;
-    border-radius: 7px;
-    margin-right: 20px;
-    padding: 5px;
-    width: 165px;
-    text-align: center;
-    cursor: pointer;
-    color: white;
-    background: #01533c;
-    height: 44px;
-    border: none;
-}
-
-.goBack:hover {
-   background-color: #04b986;
-   transition: 0.5s;
-   color: white;
-}
-
-/* .product_page {
-   height: 700px;
-} */
-
-.catalog-product {
-   background-color: #e0dede;
-    max-width: 375px;
-    margin: 13px;
-    border-radius: 7px;
-    box-shadow: 0 0 8px 0.5px #6d6d6d;
-}
-
-.spanGoBack {
-   color: white;
-   font-weight: 700;
-   font-size: 19px;
-}
-
-.fa-long-arrow-left {
-   padding-right: 4px;
-   font-weight: 700;
-}
-
-.hidden-block {
-   opacity: 0;
-   transition: 1s;
-}
-
-.show-block {
-   opacity: 1;
-   transition: 1s;
-}
-
-.owl-nav {
-   font-size: 60px;
-   font-weight: bold;
-   text-align: center;
-}
-
-.owl-nav span {
-   margin: 0 15px;
-   height: 50px;
-   color: #1c533c;
-}
-
-.owl-nav span:hover {
-   color: #04b986;
-   transition: 0.4s;
-}
-
-.productInformation h4:hover {
-   cursor: default;
-}
-
-.productInformationText {
-   font-size: 19px;
-}
-
 /*  <----Media queries-----> */
 @media screen and (max-width: 576px) {
    #last_block_columns {
@@ -499,6 +479,12 @@ footer {
       max-width: 100%;
    }
 
+   .product_list_field {
+      justify-content: center;
+     }
+}
+
+@media screen and (max-width: 1250px) {
    .product_list_field {
       justify-content: center;
      }
