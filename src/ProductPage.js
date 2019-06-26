@@ -57,7 +57,7 @@ export default function (navigateTo) {
       const spanGoBack = $(document.createElement('span'));
       spanGoBack.addClass('spanGoBack');
       goBack.append(spanGoBack);
-      spanGoBack.html('Back to catalog');
+      spanGoBack.html('Back to catalogue');
 
       const productInfo = $(document.createElement('div'));
       productInfo.addClass('productInformation container');
